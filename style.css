@@ -1,0 +1,48 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 250px;
+    width: 300px;
+}
+
+.numeroDisplay{
+    background-color: rgb(255, 255, 255);
+    font-size: 300%;
+    text-align: right;
+    border: 2px solid rgb(34, 37, 37);
+    margin: 3px;
+    padding: 2px;
+    height: 75px;
+    width: 285px;
+}
+
+body{
+    background-color: rgb(47, 153, 104);
+    height: 75px;
+    width: 285px;
+}
+
+.botonCalc{
+    font-size: large;
+    font-weight: 200;
+    font-style: normal;
+    background-color: rgb(52, 112, 112);
+    margin: 3px;
+    padding: 2px;
+}
+
+.botonOpe {
+    font-size: large;
+    font-weight: 200;
+    font-style: normal;
+    background-color: rgb(27, 95, 95);
+    margin: 3px;
+    padding: 2px;
+}
+
+#igual{
+    background-color: rgb(27, 95, 95);
+    width: 411%;
+    margin: 3px;
+    padding: 2px;
+}
